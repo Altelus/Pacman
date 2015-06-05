@@ -1,0 +1,19 @@
+﻿Build started 29/11/2014 10:22:08 PM.
+     1>Project "D:\Users\Altelus\Documents\Visual Studio 2013\Projects\IFNR3110\hw_h_12_100515125\build_2013\src\skopworksLib\skopworksLib.vcxproj" on node 2 (Build target(s)).
+     1>CustomBuild:
+         Building Custom Rule D:/Users/Altelus/Documents/Visual Studio 2013/Projects/IFNR3110/hw_h_12_100515125/src/skopworksLib/CMakeLists.txt
+         CMake does not need to re-run because D:\Users\Altelus\Documents\Visual Studio 2013\Projects\IFNR3110\hw_h_12_100515125\build_2013\src\skopworksLib\CMakeFiles\generate.stamp is up-to-date.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"D:\Users\Altelus\Documents\Visual Studio 2013\Projects\IFNR3110\tlocEngine_build_2013_TLOC_VERSION_0_1_12302_1411581072\build_full" /I"D:\Users\Altelus\Documents\Visual Studio 2013\Projects\IFNR3110\tlocEngine_build_2013_TLOC_VERSION_0_1_12302_1411581072\build_full\include" /I"D:\Users\Altelus\Documents\Visual Studio 2013\Projects\IFNR3110\tlocDep_TLOC_DEP_VERSION_0_0_194_1410376946\INSTALL\build_2013_dist\include" /I"D:\Users\Altelus\Documents\Visual Studio 2013\Projects\IFNR3110\tlocDep_TLOC_DEP_VERSION_0_0_194_1410376946\INSTALL\build_2013_dist\include\Box2D" /I"D:\Users\Altelus\Documents\Visual Studio 2013\Projects\IFNR3110\tlocDep_TLOC_DEP_VERSION_0_0_194_1410376946\INSTALL\build_2013_dist\include\CATCH" /I"D:\Users\Altelus\Documents\Visual Studio 2013\Projects\IFNR3110\hw_h_12_100515125\src" /Zi /nologo /W4 /WX /Od /Oy- /D WIN32 /D _WINDOWS /D TLOC_DEBUG /D _CRT_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR- /Fo"skopworksLib.dir\Debug\\" /Fd"skopworksLib.dir\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt  /c ..\..\..\src\skopworksLib\src\skopworksLogo.cpp ..\..\..\src\tlocVersionCheck.cpp
+         tlocVersionCheck.cpp
+         skopworksLogo.cpp
+         Generating Code...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"D:\Users\Altelus\Documents\Visual Studio 2013\Projects\IFNR3110\hw_h_12_100515125\INSTALL\build_2013\lib\Debug\skopworksLib.lib" /NOLOGO skopworksLib.dir\Debug\skopworksLogo.obj
+         skopworksLib.dir\Debug\tlocVersionCheck.obj
+         skopworksLib.vcxproj -> D:\Users\Altelus\Documents\Visual Studio 2013\Projects\IFNR3110\hw_h_12_100515125\INSTALL\build_2013\lib\Debug\skopworksLib.lib
+     1>Done Building Project "D:\Users\Altelus\Documents\Visual Studio 2013\Projects\IFNR3110\hw_h_12_100515125\build_2013\src\skopworksLib\skopworksLib.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.28

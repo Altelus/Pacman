@@ -1,0 +1,266 @@
+﻿<?xml version="1.0" encoding="Windows-1252"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{77BB5C26-CF36-4FD8-A71A-D1FFE475C24F}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>skopworksTest</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\Users\Altelus\Documents\Visual Studio 2013\Projects\IFNR3110\hw_h_12_100515125\INSTALL\build_2013\bin\Debug\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">skopworksTest.dir\Debug\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">skopworksTest</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.exe</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\Users\Altelus\Documents\Visual Studio 2013\Projects\IFNR3110\hw_h_12_100515125\INSTALL\build_2013\bin\Release\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">skopworksTest.dir\Release\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">skopworksTest</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.exe</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\Users\Altelus\Documents\Visual Studio 2013\Projects\IFNR3110\hw_h_12_100515125\INSTALL\build_2013\bin\RelWithDebInfo\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">skopworksTest.dir\RelWithDebInfo\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">skopworksTest</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.exe</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</GenerateManifest>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalOptions> /c %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>D:\Users\Altelus\Documents\Visual Studio 2013\Projects\IFNR3110\tlocEngine_build_2013_TLOC_VERSION_0_1_12302_1411581072\build_full;D:\Users\Altelus\Documents\Visual Studio 2013\Projects\IFNR3110\tlocEngine_build_2013_TLOC_VERSION_0_1_12302_1411581072\build_full\include;D:\Users\Altelus\Documents\Visual Studio 2013\Projects\IFNR3110\tlocDep_TLOC_DEP_VERSION_0_0_194_1410376946\INSTALL\build_2013_dist\include;D:\Users\Altelus\Documents\Visual Studio 2013\Projects\IFNR3110\tlocDep_TLOC_DEP_VERSION_0_0_194_1410376946\INSTALL\build_2013_dist\include\Box2D;D:\Users\Altelus\Documents\Visual Studio 2013\Projects\IFNR3110\tlocDep_TLOC_DEP_VERSION_0_0_194_1410376946\INSTALL\build_2013_dist\include\CATCH;D:\Users\Altelus\Documents\Visual Studio 2013\Projects\IFNR3110\hw_h_12_100515125\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <MinimalRebuild>true</MinimalRebuild>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;TLOC_DEBUG;_CRT_SECURE_NO_WARNINGS;TLOC_ENABLE_CPPUNWIND;TLOC_ENABLE_CPPRTTI;TLOC_USING_STL;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;TLOC_DEBUG;_CRT_SECURE_NO_WARNINGS;TLOC_ENABLE_CPPUNWIND;TLOC_ENABLE_CPPRTTI;TLOC_USING_STL;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Users\Altelus\Documents\Visual Studio 2013\Projects\IFNR3110\tlocEngine_build_2013_TLOC_VERSION_0_1_12302_1411581072\build_full;D:\Users\Altelus\Documents\Visual Studio 2013\Projects\IFNR3110\tlocEngine_build_2013_TLOC_VERSION_0_1_12302_1411581072\build_full\include;D:\Users\Altelus\Documents\Visual Studio 2013\Projects\IFNR3110\tlocDep_TLOC_DEP_VERSION_0_0_194_1410376946\INSTALL\build_2013_dist\include;D:\Users\Altelus\Documents\Visual Studio 2013\Projects\IFNR3110\tlocDep_TLOC_DEP_VERSION_0_0_194_1410376946\INSTALL\build_2013_dist\include\Box2D;D:\Users\Altelus\Documents\Visual Studio 2013\Projects\IFNR3110\tlocDep_TLOC_DEP_VERSION_0_0_194_1410376946\INSTALL\build_2013_dist\include\CATCH;D:\Users\Altelus\Documents\Visual Studio 2013\Projects\IFNR3110\hw_h_12_100515125\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Users\Altelus\Documents\Visual Studio 2013\Projects\IFNR3110\tlocEngine_build_2013_TLOC_VERSION_0_1_12302_1411581072\build_full;D:\Users\Altelus\Documents\Visual Studio 2013\Projects\IFNR3110\tlocEngine_build_2013_TLOC_VERSION_0_1_12302_1411581072\build_full\include;D:\Users\Altelus\Documents\Visual Studio 2013\Projects\IFNR3110\tlocDep_TLOC_DEP_VERSION_0_0_194_1410376946\INSTALL\build_2013_dist\include;D:\Users\Altelus\Documents\Visual Studio 2013\Projects\IFNR3110\tlocDep_TLOC_DEP_VERSION_0_0_194_1410376946\INSTALL\build_2013_dist\include\Box2D;D:\Users\Altelus\Documents\Visual Studio 2013\Projects\IFNR3110\tlocDep_TLOC_DEP_VERSION_0_0_194_1410376946\INSTALL\build_2013_dist\include\CATCH;D:\Users\Altelus\Documents\Visual Studio 2013\Projects\IFNR3110\hw_h_12_100515125\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 /debug %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;tlocCore.lib;tlocGraphics.lib;tlocMath.lib;tlocInput.lib;tlocPhysics.lib;tlocPrefab.lib;tlocAnimation.lib;FreeType.lib;Box2D.lib;glu32.lib;OpenGL32.lib;dinput8.lib;..\..\..\INSTALL\build_2013\lib\Debug\skopworksLib.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>D:/Users/Altelus/Documents/Visual Studio 2013/Projects/IFNR3110/tlocEngine_build_2013_TLOC_VERSION_0_1_12302_1411581072/build_full/lib;D:/Users/Altelus/Documents/Visual Studio 2013/Projects/IFNR3110/tlocEngine_build_2013_TLOC_VERSION_0_1_12302_1411581072/build_full/lib/$(Configuration);;D:/Users/Altelus/Documents/Visual Studio 2013/Projects/IFNR3110/tlocDep_TLOC_DEP_VERSION_0_0_194_1410376946/INSTALL/build_2013_dist/lib;D:/Users/Altelus/Documents/Visual Studio 2013/Projects/IFNR3110/tlocDep_TLOC_DEP_VERSION_0_0_194_1410376946/INSTALL/build_2013_dist/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ImportLibrary>D:/Users/Altelus/Documents/Visual Studio 2013/Projects/IFNR3110/hw_h_12_100515125/INSTALL/build_2013/lib/Debug/skopworksTest.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/Users/Altelus/Documents/Visual Studio 2013/Projects/IFNR3110/hw_h_12_100515125/INSTALL/build_2013/bin/Debug/skopworksTest.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalOptions> /c %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>D:\Users\Altelus\Documents\Visual Studio 2013\Projects\IFNR3110\tlocEngine_build_2013_TLOC_VERSION_0_1_12302_1411581072\build_full;D:\Users\Altelus\Documents\Visual Studio 2013\Projects\IFNR3110\tlocEngine_build_2013_TLOC_VERSION_0_1_12302_1411581072\build_full\include;D:\Users\Altelus\Documents\Visual Studio 2013\Projects\IFNR3110\tlocDep_TLOC_DEP_VERSION_0_0_194_1410376946\INSTALL\build_2013_dist\include;D:\Users\Altelus\Documents\Visual Studio 2013\Projects\IFNR3110\tlocDep_TLOC_DEP_VERSION_0_0_194_1410376946\INSTALL\build_2013_dist\include\Box2D;D:\Users\Altelus\Documents\Visual Studio 2013\Projects\IFNR3110\tlocDep_TLOC_DEP_VERSION_0_0_194_1410376946\INSTALL\build_2013_dist\include\CATCH;D:\Users\Altelus\Documents\Visual Studio 2013\Projects\IFNR3110\hw_h_12_100515125\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level4</WarningLevel>
+      <WholeProgramOptimization>true</WholeProgramOptimization>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;TLOC_RELEASE;_CRT_SECURE_NO_WARNINGS;TLOC_ENABLE_CPPUNWIND;TLOC_ENABLE_CPPRTTI;TLOC_USING_STL;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;TLOC_RELEASE;_CRT_SECURE_NO_WARNINGS;TLOC_ENABLE_CPPUNWIND;TLOC_ENABLE_CPPRTTI;TLOC_USING_STL;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Users\Altelus\Documents\Visual Studio 2013\Projects\IFNR3110\tlocEngine_build_2013_TLOC_VERSION_0_1_12302_1411581072\build_full;D:\Users\Altelus\Documents\Visual Studio 2013\Projects\IFNR3110\tlocEngine_build_2013_TLOC_VERSION_0_1_12302_1411581072\build_full\include;D:\Users\Altelus\Documents\Visual Studio 2013\Projects\IFNR3110\tlocDep_TLOC_DEP_VERSION_0_0_194_1410376946\INSTALL\build_2013_dist\include;D:\Users\Altelus\Documents\Visual Studio 2013\Projects\IFNR3110\tlocDep_TLOC_DEP_VERSION_0_0_194_1410376946\INSTALL\build_2013_dist\include\Box2D;D:\Users\Altelus\Documents\Visual Studio 2013\Projects\IFNR3110\tlocDep_TLOC_DEP_VERSION_0_0_194_1410376946\INSTALL\build_2013_dist\include\CATCH;D:\Users\Altelus\Documents\Visual Studio 2013\Projects\IFNR3110\hw_h_12_100515125\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Users\Altelus\Documents\Visual Studio 2013\Projects\IFNR3110\tlocEngine_build_2013_TLOC_VERSION_0_1_12302_1411581072\build_full;D:\Users\Altelus\Documents\Visual Studio 2013\Projects\IFNR3110\tlocEngine_build_2013_TLOC_VERSION_0_1_12302_1411581072\build_full\include;D:\Users\Altelus\Documents\Visual Studio 2013\Projects\IFNR3110\tlocDep_TLOC_DEP_VERSION_0_0_194_1410376946\INSTALL\build_2013_dist\include;D:\Users\Altelus\Documents\Visual Studio 2013\Projects\IFNR3110\tlocDep_TLOC_DEP_VERSION_0_0_194_1410376946\INSTALL\build_2013_dist\include\Box2D;D:\Users\Altelus\Documents\Visual Studio 2013\Projects\IFNR3110\tlocDep_TLOC_DEP_VERSION_0_0_194_1410376946\INSTALL\build_2013_dist\include\CATCH;D:\Users\Altelus\Documents\Visual Studio 2013\Projects\IFNR3110\hw_h_12_100515125\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;tlocCore.lib;tlocGraphics.lib;tlocMath.lib;tlocInput.lib;tlocPhysics.lib;tlocPrefab.lib;tlocAnimation.lib;FreeType.lib;Box2D.lib;glu32.lib;OpenGL32.lib;dinput8.lib;..\..\..\INSTALL\build_2013\lib\Release\skopworksLib.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>D:/Users/Altelus/Documents/Visual Studio 2013/Projects/IFNR3110/tlocEngine_build_2013_TLOC_VERSION_0_1_12302_1411581072/build_full/lib;D:/Users/Altelus/Documents/Visual Studio 2013/Projects/IFNR3110/tlocEngine_build_2013_TLOC_VERSION_0_1_12302_1411581072/build_full/lib/$(Configuration);;D:/Users/Altelus/Documents/Visual Studio 2013/Projects/IFNR3110/tlocDep_TLOC_DEP_VERSION_0_0_194_1410376946/INSTALL/build_2013_dist/lib;D:/Users/Altelus/Documents/Visual Studio 2013/Projects/IFNR3110/tlocDep_TLOC_DEP_VERSION_0_0_194_1410376946/INSTALL/build_2013_dist/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <ImportLibrary>D:/Users/Altelus/Documents/Visual Studio 2013/Projects/IFNR3110/hw_h_12_100515125/INSTALL/build_2013/lib/Release/skopworksTest.lib</ImportLibrary>
+      <LinkTimeCodeGeneration>UseLinkTimeCodeGeneration</LinkTimeCodeGeneration>
+      <ProgramDataBaseFile>D:/Users/Altelus/Documents/Visual Studio 2013/Projects/IFNR3110/hw_h_12_100515125/INSTALL/build_2013/bin/Release/skopworksTest.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <ClCompile>
+      <AdditionalOptions> /c %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>D:\Users\Altelus\Documents\Visual Studio 2013\Projects\IFNR3110\tlocEngine_build_2013_TLOC_VERSION_0_1_12302_1411581072\build_full;D:\Users\Altelus\Documents\Visual Studio 2013\Projects\IFNR3110\tlocEngine_build_2013_TLOC_VERSION_0_1_12302_1411581072\build_full\include;D:\Users\Altelus\Documents\Visual Studio 2013\Projects\IFNR3110\tlocDep_TLOC_DEP_VERSION_0_0_194_1410376946\INSTALL\build_2013_dist\include;D:\Users\Altelus\Documents\Visual Studio 2013\Projects\IFNR3110\tlocDep_TLOC_DEP_VERSION_0_0_194_1410376946\INSTALL\build_2013_dist\include\Box2D;D:\Users\Altelus\Documents\Visual Studio 2013\Projects\IFNR3110\tlocDep_TLOC_DEP_VERSION_0_0_194_1410376946\INSTALL\build_2013_dist\include\CATCH;D:\Users\Altelus\Documents\Visual Studio 2013\Projects\IFNR3110\hw_h_12_100515125\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;TLOC_RELEASE_DEBUGINFO;_CRT_SECURE_NO_WARNINGS;TLOC_ENABLE_CPPUNWIND;TLOC_ENABLE_CPPRTTI;TLOC_USING_STL;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;TLOC_RELEASE_DEBUGINFO;_CRT_SECURE_NO_WARNINGS;TLOC_ENABLE_CPPUNWIND;TLOC_ENABLE_CPPRTTI;TLOC_USING_STL;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Users\Altelus\Documents\Visual Studio 2013\Projects\IFNR3110\tlocEngine_build_2013_TLOC_VERSION_0_1_12302_1411581072\build_full;D:\Users\Altelus\Documents\Visual Studio 2013\Projects\IFNR3110\tlocEngine_build_2013_TLOC_VERSION_0_1_12302_1411581072\build_full\include;D:\Users\Altelus\Documents\Visual Studio 2013\Projects\IFNR3110\tlocDep_TLOC_DEP_VERSION_0_0_194_1410376946\INSTALL\build_2013_dist\include;D:\Users\Altelus\Documents\Visual Studio 2013\Projects\IFNR3110\tlocDep_TLOC_DEP_VERSION_0_0_194_1410376946\INSTALL\build_2013_dist\include\Box2D;D:\Users\Altelus\Documents\Visual Studio 2013\Projects\IFNR3110\tlocDep_TLOC_DEP_VERSION_0_0_194_1410376946\INSTALL\build_2013_dist\include\CATCH;D:\Users\Altelus\Documents\Visual Studio 2013\Projects\IFNR3110\hw_h_12_100515125\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Users\Altelus\Documents\Visual Studio 2013\Projects\IFNR3110\tlocEngine_build_2013_TLOC_VERSION_0_1_12302_1411581072\build_full;D:\Users\Altelus\Documents\Visual Studio 2013\Projects\IFNR3110\tlocEngine_build_2013_TLOC_VERSION_0_1_12302_1411581072\build_full\include;D:\Users\Altelus\Documents\Visual Studio 2013\Projects\IFNR3110\tlocDep_TLOC_DEP_VERSION_0_0_194_1410376946\INSTALL\build_2013_dist\include;D:\Users\Altelus\Documents\Visual Studio 2013\Projects\IFNR3110\tlocDep_TLOC_DEP_VERSION_0_0_194_1410376946\INSTALL\build_2013_dist\include\Box2D;D:\Users\Altelus\Documents\Visual Studio 2013\Projects\IFNR3110\tlocDep_TLOC_DEP_VERSION_0_0_194_1410376946\INSTALL\build_2013_dist\include\CATCH;D:\Users\Altelus\Documents\Visual Studio 2013\Projects\IFNR3110\hw_h_12_100515125\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 /debug %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;tlocCore.lib;tlocGraphics.lib;tlocMath.lib;tlocInput.lib;tlocPhysics.lib;tlocPrefab.lib;tlocAnimation.lib;FreeType.lib;Box2D.lib;glu32.lib;OpenGL32.lib;dinput8.lib;..\..\..\INSTALL\build_2013\lib\RelWithDebInfo\skopworksLib.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>D:/Users/Altelus/Documents/Visual Studio 2013/Projects/IFNR3110/tlocEngine_build_2013_TLOC_VERSION_0_1_12302_1411581072/build_full/lib;D:/Users/Altelus/Documents/Visual Studio 2013/Projects/IFNR3110/tlocEngine_build_2013_TLOC_VERSION_0_1_12302_1411581072/build_full/lib/$(Configuration);;D:/Users/Altelus/Documents/Visual Studio 2013/Projects/IFNR3110/tlocDep_TLOC_DEP_VERSION_0_0_194_1410376946/INSTALL/build_2013_dist/lib;D:/Users/Altelus/Documents/Visual Studio 2013/Projects/IFNR3110/tlocDep_TLOC_DEP_VERSION_0_0_194_1410376946/INSTALL/build_2013_dist/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ImportLibrary>D:/Users/Altelus/Documents/Visual Studio 2013/Projects/IFNR3110/hw_h_12_100515125/INSTALL/build_2013/lib/RelWithDebInfo/skopworksTest.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/Users/Altelus/Documents/Visual Studio 2013/Projects/IFNR3110/hw_h_12_100515125/INSTALL/build_2013/bin/RelWithDebInfo/skopworksTest.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\..\..\src\skopworksTest\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule D:/Users/Altelus/Documents/Visual Studio 2013/Projects/IFNR3110/hw_h_12_100515125/src/skopworksTest/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" "-HD:/Users/Altelus/Documents/Visual Studio 2013/Projects/IFNR3110/hw_h_12_100515125" "-BD:/Users/Altelus/Documents/Visual Studio 2013/Projects/IFNR3110/hw_h_12_100515125/build_2013" --check-stamp-file "D:\Users\Altelus\Documents\Visual Studio 2013\Projects\IFNR3110\hw_h_12_100515125\build_2013\src\skopworksTest\CMakeFiles\generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:/Users/Altelus/Documents/Visual Studio 2013/Projects/IFNR3110/hw_h_12_100515125/src/skopworksTest/CMakeLists.txt;D:\Users\Altelus\Documents\Visual Studio 2013\Projects\IFNR3110\hw_h_12_100515125\src\skopworksTest\CMakeLists.txt;D:\Users\Altelus\Documents\Visual Studio 2013\Projects\IFNR3110\hw_h_12_100515125\src\tlocCMakeListsProjects.txt;D:\Users\Altelus\Documents\Visual Studio 2013\Projects\IFNR3110\hw_h_12_100515125\src\skopworksTest\tlocUserVarsPre.cmake;D:\Users\Altelus\Documents\Visual Studio 2013\Projects\IFNR3110\hw_h_12_100515125\src\skopworksTest\tlocUserVarsPost.cmake;D:\Users\Altelus\Documents\Visual Studio 2013\Projects\IFNR3110\hw_h_12_100515125\src\skopworksTest\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\Users\Altelus\Documents\Visual Studio 2013\Projects\IFNR3110\hw_h_12_100515125\build_2013\src\skopworksTest\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule D:/Users/Altelus/Documents/Visual Studio 2013/Projects/IFNR3110/hw_h_12_100515125/src/skopworksTest/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" "-HD:/Users/Altelus/Documents/Visual Studio 2013/Projects/IFNR3110/hw_h_12_100515125" "-BD:/Users/Altelus/Documents/Visual Studio 2013/Projects/IFNR3110/hw_h_12_100515125/build_2013" --check-stamp-file "D:\Users\Altelus\Documents\Visual Studio 2013\Projects\IFNR3110\hw_h_12_100515125\build_2013\src\skopworksTest\CMakeFiles\generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:/Users/Altelus/Documents/Visual Studio 2013/Projects/IFNR3110/hw_h_12_100515125/src/skopworksTest/CMakeLists.txt;D:\Users\Altelus\Documents\Visual Studio 2013\Projects\IFNR3110\hw_h_12_100515125\src\skopworksTest\CMakeLists.txt;D:\Users\Altelus\Documents\Visual Studio 2013\Projects\IFNR3110\hw_h_12_100515125\src\tlocCMakeListsProjects.txt;D:\Users\Altelus\Documents\Visual Studio 2013\Projects\IFNR3110\hw_h_12_100515125\src\skopworksTest\tlocUserVarsPre.cmake;D:\Users\Altelus\Documents\Visual Studio 2013\Projects\IFNR3110\hw_h_12_100515125\src\skopworksTest\tlocUserVarsPost.cmake;D:\Users\Altelus\Documents\Visual Studio 2013\Projects\IFNR3110\hw_h_12_100515125\src\skopworksTest\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\Users\Altelus\Documents\Visual Studio 2013\Projects\IFNR3110\hw_h_12_100515125\build_2013\src\skopworksTest\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule D:/Users/Altelus/Documents/Visual Studio 2013/Projects/IFNR3110/hw_h_12_100515125/src/skopworksTest/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" "-HD:/Users/Altelus/Documents/Visual Studio 2013/Projects/IFNR3110/hw_h_12_100515125" "-BD:/Users/Altelus/Documents/Visual Studio 2013/Projects/IFNR3110/hw_h_12_100515125/build_2013" --check-stamp-file "D:\Users\Altelus\Documents\Visual Studio 2013\Projects\IFNR3110\hw_h_12_100515125\build_2013\src\skopworksTest\CMakeFiles\generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:/Users/Altelus/Documents/Visual Studio 2013/Projects/IFNR3110/hw_h_12_100515125/src/skopworksTest/CMakeLists.txt;D:\Users\Altelus\Documents\Visual Studio 2013\Projects\IFNR3110\hw_h_12_100515125\src\skopworksTest\CMakeLists.txt;D:\Users\Altelus\Documents\Visual Studio 2013\Projects\IFNR3110\hw_h_12_100515125\src\tlocCMakeListsProjects.txt;D:\Users\Altelus\Documents\Visual Studio 2013\Projects\IFNR3110\hw_h_12_100515125\src\skopworksTest\tlocUserVarsPre.cmake;D:\Users\Altelus\Documents\Visual Studio 2013\Projects\IFNR3110\hw_h_12_100515125\src\skopworksTest\tlocUserVarsPost.cmake;D:\Users\Altelus\Documents\Visual Studio 2013\Projects\IFNR3110\hw_h_12_100515125\src\skopworksTest\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\Users\Altelus\Documents\Visual Studio 2013\Projects\IFNR3110\hw_h_12_100515125\build_2013\src\skopworksTest\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\src\skopworksTest\src\main.cpp"  />
+    <ClCompile Include="..\..\..\src\tlocVersionCheck.cpp"  />
+    <None Include="..\..\..\assets" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:/Users/Altelus/Documents/Visual Studio 2013/Projects/IFNR3110/hw_h_12_100515125/build_2013/ZERO_CHECK.vcxproj">
+      <Project>B32F4C13-0BEE-433A-A8CA-0D90EEE93261</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Users/Altelus/Documents/Visual Studio 2013/Projects/IFNR3110/hw_h_12_100515125/build_2013/src/skopworksLib/skopworksLib.vcxproj">
+      <Project>4668AC58-0281-4019-A955-91DA52ACC361</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

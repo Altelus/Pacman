@@ -1,0 +1,5 @@
+D:/Users/Altelus/Documents/Visual Studio 2013/Projects/IFNR3110/hw_h_12_100515125/build_2013/CMakeFiles/ALL_BUILD.dir
+D:/Users/Altelus/Documents/Visual Studio 2013/Projects/IFNR3110/hw_h_12_100515125/build_2013/CMakeFiles/ZERO_CHECK.dir
+D:/Users/Altelus/Documents/Visual Studio 2013/Projects/IFNR3110/hw_h_12_100515125/build_2013/src/skopworks/CMakeFiles/skopworks.dir
+D:/Users/Altelus/Documents/Visual Studio 2013/Projects/IFNR3110/hw_h_12_100515125/build_2013/src/skopworksLib/CMakeFiles/skopworksLib.dir
+D:/Users/Altelus/Documents/Visual Studio 2013/Projects/IFNR3110/hw_h_12_100515125/build_2013/src/skopworksTest/CMakeFiles/skopworksTest.dir
